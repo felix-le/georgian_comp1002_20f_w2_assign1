@@ -1,6 +1,12 @@
 header {
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  header h1{
+    font-size: 18px;
+  }
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
@@ -11,6 +17,12 @@ p {
 }
 .the_song__wrapper {
   text-align: center;
+  
+}
+@media only screen and (max-width: 600px) {
+  .the_song__wrapper{
+    font-size: 12px;
+  }
 }
 
 .the_song_section {
